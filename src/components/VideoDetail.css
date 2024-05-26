@@ -1,0 +1,49 @@
+/* VideoDetail.css */
+.ui-header {
+  font-size: large;
+}
+
+.video-description {
+  background-color: transparent !important; /* Make the background transparent */
+}
+
+.video-comments {
+  margin-top: 20px;
+}
+
+.video-comments h4 {
+  margin-bottom: 10px;
+}
+
+.comment {
+  display: flex;
+  align-items: flex-start; /* Align elements at the start */
+  margin-bottom: 30px; /* Adjust space between each user's comment */
+}
+
+.profile-image {
+  width: 30px; /* Adjust size as needed */
+  height: 30px; /* Adjust size as needed */
+  border-radius: 100%; /* Make the image round */
+  margin-right: 15px; /* Add space between image and comment */
+  color: #606060; /* Set icon color */
+}
+
+.comment-text {
+  flex-grow: 1; /* Take the remaining space */
+}
+
+.comment-text .author {
+  font-weight: bold;
+  margin-right: 15px;
+  color: #fff; /* Set text color to white */
+}
+
+.comment-text .metadata {
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+.comment-text .text {
+  margin-top: 5px;
+}

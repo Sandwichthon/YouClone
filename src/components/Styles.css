@@ -1,0 +1,121 @@
+body {
+    background-color: #181818; /* Dark background color */
+    font-size: 0.7em;
+    font-weight:lighter;
+    color: white; 
+  }
+
+  
+  .ui.segment {
+    background-color: rgba(0, 0, 0, 0.0) !important;
+    border: none;
+    font-size: 150%;
+    
+  }
+  .ui.segment .ui.header {
+    color: white; /* Change font color to white */
+  }
+  
+  .ui.button.small {
+    background-color:  rgba(255, 51, 0, 0.5); /* Initial button background color */
+    color: white; /* Initial button text color */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .ui.button.small:hover {
+    background-color:  #302d2d; /* Background color on hover */
+    color: #f3efe7; /* Text color on hover */
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
+    padding-bottom: 20px;
+  }
+  
+  .search-bar {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+  }
+  
+  .video-item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #cccccc00;
+    transition: background-color 0.2s ease;
+    background-color: transparent;
+  }
+  
+  .video-item:hover {
+    background-color: rgba(255, 51, 0, 0.5); /* Transparent brilliant orange */
+  }
+  
+  .video-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  
+  .video-item .content {
+    margin-left: 20px;
+    flex-grow: 1; /* Take up the remaining space */
+    font-size: 16px; /* Increase font size */
+    display: flex; /* Make content flex container */
+    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .video-item .header {
+    color: white;
+    font-size: 1.0em;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }*/
+  
+  .video-item .header {
+    color: white;
+    font-size: 1.0em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: 15px; /* Add right margin */
+  }
+  
+  .video-item .content .header {
+    color: white !important; /* Change font color to white */
+  }
+
+  .load-more {
+    display: block;
+    margin: 20px auto;
+    background-color: #ae3b1e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    font-size: 120%;
+  }
+  
+  .load-more:hover {
+    background-color: #302d2d;
+    color: #f3efe7;
+  }
+
+  .logo-search-container {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .logo {
+    top: -20px; /* Adjust the top distance as needed */
+    left: 80px; /* Adjust the left distance as needed */
+    z-index: 9999; /* Ensure the logo is above other content */
+  }
+  
+
+  

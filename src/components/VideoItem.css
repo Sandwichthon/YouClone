@@ -1,0 +1,37 @@
+/* VideoItem.css */
+
+/* Styles pour chaque élément vidéo */
+.video-item {
+  display: flex;
+  flex-direction: column; /* Empile les éléments verticalement */
+  align-items: center; /* Centrer les éléments horizontalement */
+  cursor: pointer;
+  padding: 10px 0;
+  transition: background-color 0.2s ease;
+}
+
+.video-item:hover {
+  background-color: rgba(255, 51, 0, 0.5); /* Orange brillant transparent */
+}
+
+.video-item img {
+  width: 160px; /* Ajuster la largeur de l'image */
+  height: 90px; /* Ajuster la hauteur de l'image */
+  object-fit: cover; /* Couvrir le conteneur sans distorsion */
+}
+
+.video-item .content {
+  margin-top: 10px; /* Ajouter une marge au-dessus de la description */
+  text-align: center; /* Centrer le texte */
+}
+
+.video-item .header {
+  font-size: 1em;
+  font-weight: bold;
+  color: white; /* Définir la couleur du texte */
+}
+
+.video-item .description {
+  font-size: 0.8em;
+  color: #ccc; /* Couleur de description */
+}

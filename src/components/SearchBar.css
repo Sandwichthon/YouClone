@@ -1,0 +1,55 @@
+/* Styles pour la barre de recherche */
+.search-bar-container {
+  width: 100%;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #202020 !important; /* Couleur de fond plus foncée */
+  border-radius: 2px;
+  padding: 7px 8px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  background-color: #1a1616;
+  color: rgb(204, 204, 204);
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 8px;
+  width: 100%;
+}
+
+.search-button {
+  background-color: rgba(255, 51, 0, 0.5); /* Couleur de fond du bouton */
+  color: white; /* Couleur du texte du bouton */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #302d2d; /* Couleur de fond du bouton au survol */
+}
+
+.search-icon {
+  color: #606060;
+  margin-right: 25px;
+}
+
+.search-bar-container {
+  position: center;
+  margin-right: 120px;
+  margin-top: 40px; /* Ajuster la marge supérieure selon les besoins */
+}
